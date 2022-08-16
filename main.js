@@ -29,19 +29,19 @@ console.log(color ,name,vitesse);
 // if ("blue "== "red") {
 //  console.log()
 // }
-function calculatrice (signe , a, b) {
-    if("signe==addition") {
+function calculatrice (signe, a, b) {
+    if(signe == "addition") {
      return a +b ;
     }
-    if("signe==soustration") {
+    if(signe == "soustration") {
         return a -b ;
     }
-    if("signe==multiplication") {
+     if(signe == "multiplication") {
         return a *b ;
-     } 
+        } 
     
-    if("signe==division") {
+    if (signe == "division") {
         return a /b ;
-       } 
+    } 
     console.log(calculatrice());
 }
